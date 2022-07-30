@@ -1,0 +1,426 @@
+/* фон header #FFFFFF  */
+/* основной фон #F5F5F5 */
+/* темный фон #2F303A */
+/* серый фон #F5F4FA*/
+/* основной текст #757575 */
+/* цыет заголовков #212121 */
+/* белый цвет #FFFFFF */
+/* акцент #2196F3 */
+
+:root {
+    --color-text:#757575;
+    --color-h:#212121;
+    --white-color-text:#FFFFFF;
+    --accent:#2196F3;
+    --logo-color:#000000;
+    --darc-bgc:#2F303A;
+    --second-bgc:#F5F5F5;
+    --third-bgc-color:#F5F4FA;
+}
+section {
+    display: block;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text);
+}
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+button {
+   cursor: pointer;
+}
+address {
+    font-style: normal;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.header-auth {
+    text-decoration: none;
+}
+
+.section-title {
+    color: var(--color-h);
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.container {
+        width: 1200px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        /* outline: 2px solid red */
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/*---------Шапка сайта--------- */
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 93px;
+    color: var(--logo-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+}
+.logo-web {
+    color: var(--accent);
+}
+
+.header-nav {
+    column-gap: 50px;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none
+}
+
+.header-nav {
+    color: var(--color-h);
+}
+.header-nav:hover,
+.header-nav:focus {
+    color: var(--accent);
+}
+.header-contact {
+    margin-left: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-auth {
+        column-gap: 50px;
+        display: flex;
+
+        color: var(--accent);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
+}
+
+.header-auth.link{
+    color: var(--color-text);
+}
+.header-auth.link:hover,
+.header-auth.link:focus {
+    color: var(--accent);
+}
+
+/* -----------Герой-------- */
+.hero {
+    background-color: var(--darc-bgc);
+    background-color: var(--darc-bgc);
+    text-align: center;
+    display: block;
+    padding-top: 200px;
+    padding-bottom: 280px;
+        
+}
+
+.hero-title {
+    max-width: 696px;
+    margin: 0 auto 30px;
+    color: var(--white-color-text);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 10px 32px;
+
+    color: var(--white-color-text);
+    background-color: var(--accent);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     border-radius: 4px;
+    border: none;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #188CE8;
+}
+
+
+/* -------Преимущества-------- */
+
+.benefits {
+    display: flex;
+    background-color: var(--second-bgc);
+}
+ .benefits-list {
+    margin-top: 94px;
+    margin-bottom: 94px;
+    display: flex;
+    column-gap: 30px;
+ }
+
+
+.benefits-item-title {
+        padding-bottom: 10px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+}
+
+.item-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* --------Примеры работ----- */
+.examples-title {color: #212121;}
+.examples-list {
+    display: flex;
+    column-gap: 30px;
+}
+.examples-title {
+        margin-top: 0;
+        margin-bottom: 50px;
+    
+        color: var(--color-h);
+    
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.examples-item {
+    margin-bottom: 94px;
+}
+/* ---------Сотрудники-------- */
+.employees {
+    background-color: var(--third-bgc-color);
+}
+.employees-list {
+    display: flex;
+    column-gap: 30px;
+}
+.employees-item {
+    margin-bottom: 94px;
+    width: calc((100%-90px)/4);
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+                0px 1px 1px rgba(0, 0, 0, 0.14),
+                0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    overflow: hidden;          
+}
+
+
+.employees-itemw {
+    margin-bottom: 10px;
+   
+    color: var(--color-h);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.workers-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.item-text-emp {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.employees-title {
+        margin-top: 0;
+        margin-bottom: 50px;
+        
+        color: var(--color-h);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
+/* ---------Footer--------- */
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--darc-bgc);
+}
+.container-footer {
+    margin-left: 215px;
+}
+.logo-footer {
+    margin-top: 0;
+    
+}
+
+.footer-logo {
+    color: var(--white-color-text);
+}
+.logo-footer {
+    color: var(--white-color-text);
+}
+.footer-list {
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.address {
+    color: var(--white-color-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent);
+}
+
+
+
+/* --------Портфолио------- */
+.gallary {
+    margin-top: 94px;
+}
+.gallary-button {
+     padding: 6px 22px;
+    text-align: center; 
+
+     color: var(--color-h); 
+
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        border: none;
+        background: #FFFFFF;
+}
+.gallery-list {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.gallary-button:hover,
+.gallary-button:focus {
+    color: var(--white-color-text);
+    background-color: var(--accent);
+}
+.secondary-list {
+    display: flex;
+    flex-wrap: wrap;
+    
+    }
+.card {
+    flex-basis: calc((100%/3 - 30px));
+}
+.img-info {
+    padding: 20px 24px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.gallery-title {
+    margin-bottom: 4px;
+
+    color: var(--color-h);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.gallery-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+.footer-logo {text-decoration: none;}
