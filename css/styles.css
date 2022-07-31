@@ -66,8 +66,8 @@ img {
 }
 .container {
         width: 1200px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
         /* outline: 2px solid red */
@@ -87,6 +87,10 @@ img {
 }
 
 /*---------Шапка сайта--------- */
+.header-container {
+    padding-top: 32px;
+        padding-bottom: 32px;
+}
 .main-nav {
     display: flex;
     align-items: center;
@@ -125,8 +129,6 @@ img {
 }
 .header-contact {
     margin-left: auto;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .header-auth {
@@ -158,7 +160,7 @@ img {
     text-align: center;
     display: block;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
         
 }
 
@@ -200,14 +202,26 @@ img {
 
 
 /* -------Преимущества-------- */
+.cont {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.benefits-main {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.benefits-item {
+    max-width: 270px;
+}
 
 .benefits {
     display: flex;
-    background-color: var(--second-bgc);
 }
  .benefits-list {
-    margin-top: 94px;
-    margin-bottom: 94px;
     display: flex;
     column-gap: 30px;
  }
@@ -237,15 +251,17 @@ img {
 }
 
 /* --------Примеры работ----- */
+.examples {
+    padding-top: 94px;
+        padding-bottom: 94px;
+}
 .examples-title {color: #212121;}
 .examples-list {
     display: flex;
     column-gap: 30px;
 }
 .examples-title {
-        margin-top: 0;
-        margin-bottom: 50px;
-    
+        padding-bottom: 50px;
         color: var(--color-h);
     
         font-size: 36px;
@@ -253,11 +269,11 @@ img {
         text-align: center;
         letter-spacing: 0.03em;
 }
-.examples-item {
-    margin-bottom: 94px;
-}
+
 /* ---------Сотрудники-------- */
 .employees {
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: var(--third-bgc-color);
 }
 .employees-list {
@@ -277,7 +293,7 @@ img {
 
 
 .employees-itemw {
-    margin-bottom: 10px;
+    margin-bottom: 9px;
    
     color: var(--color-h);
     font-weight: 500;
@@ -286,11 +302,11 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.workers-text {
-    padding-top: 30px;
-    padding-bottom: 30px;
+.workers-img {
+    margin-bottom: 30px;
 }
 .item-text-emp {
+    margin-bottom: 30px;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -301,9 +317,6 @@ img {
         color: #757575;
 }
 .employees-title {
-        margin-top: 0;
-        margin-bottom: 50px;
-        
         color: var(--color-h);
         font-weight: 700;
         font-size: 36px;
@@ -319,7 +332,7 @@ img {
     background-color: var(--darc-bgc);
 }
 .container-footer {
-    margin-left: 215px;
+    /* margin-left: 215px; */
 }
 .logo-footer {
     margin-top: 0;
@@ -347,6 +360,7 @@ img {
 }
 
 .address-link {
+    margin-bottom: 9px;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-weight: 400;
@@ -364,7 +378,7 @@ img {
 
 /* --------Портфолио------- */
 .gallary {
-    margin-top: 94px;
+    /* margin-top: 94px; */
 }
 .gallary-button {
      padding: 6px 22px;
@@ -396,6 +410,7 @@ img {
     background-color: var(--accent);
 }
 .secondary-list {
+    column-gap: 30px;
     display: flex;
     flex-wrap: wrap;
     
@@ -424,3 +439,7 @@ img {
     letter-spacing: 0.03em;
 }
 .footer-logo {text-decoration: none;}
+
+.footer-text {
+    margin-bottom: 9px;
+}
