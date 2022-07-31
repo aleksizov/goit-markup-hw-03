@@ -410,6 +410,7 @@ img {
     background-color: var(--accent);
 }
 .secondary-list {
+    margin-bottom: 94px;
     column-gap: 30px;
     display: flex;
     flex-wrap: wrap;
