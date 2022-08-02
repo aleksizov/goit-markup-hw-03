@@ -228,7 +228,7 @@ img {
 
 
 .benefits-item-title {
-        padding-bottom: 10px;
+        margin-bottom: 10px;
 
         font-family: 'Roboto';
         font-style: normal;
@@ -303,11 +303,10 @@ img {
 }
 
 .workers-text {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .item-text-emp {
-    margin-bottom: 30px;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -438,6 +437,9 @@ img {
 
 
 /* --------Портфолио------- */
+.header-container {
+    border-bottom: 1px solid #ECECEC;
+}
 .gallary {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -486,7 +488,7 @@ img {
 .img-info {
     padding: 20px 24px;
     background: #FFFFFF;
-    border: 1px solid #878787;
+    border: 1px solid #EEEEEE;
 }
 
 .gallery-title {
