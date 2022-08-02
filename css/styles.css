@@ -1,4 +1,4 @@
-/* фон header #FFFFFF  */
+/* фон header #FFFFFF 
 /* основной фон #F5F5F5 */
 /* темный фон #2F303A */
 /* серый фон #F5F4FA*/
@@ -261,7 +261,7 @@ img {
     column-gap: 30px;
 }
 .examples-title {
-        padding-bottom: 50px;
+        margin-bottom: 50px;
         color: var(--color-h);
     
         font-size: 36px;
@@ -301,7 +301,9 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.workers-img {
+
+.workers-text {
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 .item-text-emp {
@@ -316,7 +318,7 @@ img {
         color: #757575;
 }
 .employees-title {
-        padding-bottom: 50px;
+        margin-bottom: 50px;
         color: var(--color-h);
         font-weight: 700;
         font-size: 36px;
@@ -326,7 +328,7 @@ img {
         color: #212121;
     }
 /* ---------Footer--------- */
-.footer {
+.footer { 
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--darc-bgc);
@@ -359,6 +361,7 @@ img {
 }
 
 .address-link {
+    display: block;
     margin-bottom: 9px;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
@@ -424,7 +427,7 @@ img {
 .img-info {
     padding: 20px 24px;
     background: #FFFFFF;
-    border: 1px solid #ffffff;
+    border: 1px solid #878787;
 }
 
 .gallery-title {
@@ -446,10 +449,56 @@ img {
 .footer-text {
     margin-bottom: 9px;
 }
-.address > a  {
-    padding-bottom: 9px;
+ .adress-link {
+    margin-bottom: 9px;
 }
 
 .main-nav {
-    border-bottom: 2px solid ECECEC;
+    border-bottom: 1px solid black;
+} 
+
+
+
+.footer {
+    background-color: var(--darc-bgc);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+
+.address {
+    color: var(--white-color-text);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address-margin {
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+
+.address .address-link {
+    margin-top: 0;
+    display: inline-block;
+}
+
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent);
 }
