@@ -328,28 +328,27 @@ img {
         color: #212121;
     }
 /* ---------Footer--------- */
-.footer { 
+
+.footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--darc-bgc);
 }
-.container-footer {
-    /* margin-left: 215px; */
-}
+
+
 .logo-footer {
     margin-top: 0;
-    
+
 }
 
 .footer-logo {
     color: var(--white-color-text);
 }
+
 .logo-footer {
     color: var(--white-color-text);
 }
-.footer-list {
-    margin-top: 20px;
-}
+
 
 .address {
     color: var(--white-color-text);
@@ -364,6 +363,66 @@ img {
     display: block;
     margin-bottom: 9px;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent);
+}
+
+.footer-logo {
+    text-decoration: none;
+}
+
+.footer-text {
+    margin-bottom: 9px;
+}
+
+.adress-link {
+    margin-bottom: 9px;
+}
+
+.header-container .portfolio .main-nav {
+    border-bottom: 1px solid black;
+}
+
+
+
+.footer {
+    background-color: var(--darc-bgc);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.address {
+    color: var(--white-color-text);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address-margin {
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+
+.address .address-link {
+    margin-top: 0;
+    display: inline-block;
+}
+
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
@@ -443,62 +502,4 @@ img {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-}
-.footer-logo {text-decoration: none;}
-
-.footer-text {
-    margin-bottom: 9px;
-}
- .adress-link {
-    margin-bottom: 9px;
-}
-
-.main-nav {
-    border-bottom: 1px solid black;
-} 
-
-
-
-.footer {
-    background-color: var(--darc-bgc);
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-
-
-
-.address {
-    color: var(--white-color-text);
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
-
-.address-margin {
-    margin-top: 20px;
-    margin-bottom: 9px;
-}
-
-.address .address-link {
-    margin-top: 0;
-    display: inline-block;
-}
-
-.address-link {
-    color: rgba(255, 255, 255, 0.6);
-
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
-
-.address-link:hover,
-.address-link:focus {
-    color: var(--accent);
 }
